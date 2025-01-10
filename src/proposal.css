@@ -1,0 +1,65 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* Center content horizontally */
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    position: relative;
+}
+
+.marry {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    bottom: 20%;
+    text-align: center; /* Ensure text is centered */
+}
+
+.yes,
+.no {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    position: relative;
+    display: block;
+    width: 20vw; /* Corrected from vb to vw */
+    padding: 20px;
+    margin: 10px; /* Adds spacing between buttons */
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: white;
+    transition: all 0.3s ease; /* Removed unnecessary comma */
+    text-align: center;
+}
+
+.yes {
+    bottom: 65px; /* Retain the offset for "YES" */
+}
+
+.yes:hover ,.no:hover{
+    background-color: black;
+    color: white;
+    opacity: 0.8;
+}
+
+.no{
+    width: 20vw;
+    height: 10vh;
+    position: absolute;
+    top: 60%;
+    left: 600px;
+    transition: all 0.3s ease;
+}
+
+.begging{
+    position: absolute;
+    top: 5%;
+}
+
+.proposal-container{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+}

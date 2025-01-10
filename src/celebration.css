@@ -1,0 +1,43 @@
+.celeb-container{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    padding: 10px;
+}
+
+.celeb{
+    left: 35%;
+}
+
+.yay{
+    left: 75%;
+    top: 0%;
+}
+
+.celebYes{
+    left: 25%;
+    top:50%;
+}
+
+.hooray{
+    right: 17%;
+    top: 50%;
+}
+
+img {
+    padding: 10px;
+    position: relative;
+    height: 200px;
+    width: 200px;
+}
+
+.text{
+    position: absolute;
+    align-self: center;
+    justify-items: center;
+    padding: 10px;
+    top: 32%;
+    left: -60px;
+    position-area: center;
+    z-index: 1;
+    font-family: 'Merienda', cursive;}
