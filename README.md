@@ -21,7 +21,7 @@ Ready to have some fun? Here's how you can run the app locally on your machine:
 
 ### 1. Clone this repo
 ```bash 
-git clone github.com/HashimCodeDev/Will-You-Marry-Me
+git clone https://github.com/HashimCodeDev/Will-You-Marry-Me.git
 ```
 
 ### 2. Navigate to the Repo
